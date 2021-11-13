@@ -1,6 +1,18 @@
 {
     "name":"walirazzaq/composer-basic-auth-env",
     "type":"composer-plugin",
+    "description": "Sets composer basic auth defined in .env file in specific format",
+    "keywords": ["env basic auth","composer-env"],
+    "homepage": "https://github.com/walirazzaq/composer-basic-auth-env",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wali Razzaq",
+            "email": "m.wali.razzaq@gmail.com",
+            "homepage": "https://twitter.com/wali_razzaq",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "composer-plugin-api":"^2.0"
     },
