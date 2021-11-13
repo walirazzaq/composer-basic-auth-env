@@ -1,0 +1,18 @@
+{
+    "name":"composer-basic-auth-env/composer-basic-auth-env",
+    "type":"composer-plugin",
+    "require": {
+        "composer-plugin-api":"^2.0"
+    },
+    "require-dev":{
+        "composer/composer":"^2"
+    },
+    "autoload": {
+        "psr-4": {
+            "ComposerBasicAuthEnv\\": "src/"
+        }
+    },
+    "extra": {
+        "class": "ComposerBasicAuthEnv\\ComposerBasicAuthEnv"
+    }
+}
