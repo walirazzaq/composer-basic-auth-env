@@ -1,5 +1,5 @@
 {
-    "name":"composer-basic-auth-env/composer-basic-auth-env",
+    "name":"walirazzaq/composer-basic-auth-env",
     "type":"composer-plugin",
     "require": {
         "composer-plugin-api":"^2.0"
